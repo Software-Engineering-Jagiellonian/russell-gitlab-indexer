@@ -35,7 +35,7 @@ class GitLabIndexer(Indexer):
             self.log.debug(f'Last crawl id: ' + str(prev_repository_id))
             self.log.debug(f"Last tested id: {get_parameters['id_after']}")
 
-            response = requests.get(self.BASE_API_URL, params=get_parameters, timeout=3)
+            response = requests.get(self.BASE_API_URL, params=get_parameters, timeout=22)
             if response.status_code != 200:
                 raise IndexerError('Response code other than 200!', 'Response: ' + response.text)
 
