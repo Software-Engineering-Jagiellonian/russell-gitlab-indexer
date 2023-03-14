@@ -1,8 +1,8 @@
-# Frege GitLab Indexer
+# Russell GitLab Indexer
 
-Indexer for a Frege project that crawl a GitLab repositories.
+Indexer for a Russell project that crawl a GitLab repositories.
 
-Docker image available as `jagiellonian/frege-gitlab-indexer`
+Docker image available as `jagiellonian/russell-gitlab-indexer`
 
 ## Docker environment variables
 
